@@ -12,6 +12,10 @@ header {
   color: #3C4F9B;
 }
 
+header img {
+  max-width: 1.2rem;
+}
+
 .topnav {
   background-color: #3C4F9B;
   overflow: hidden;
