@@ -112,3 +112,31 @@ li {
   bottom: 5px;
   border: 12px solid #3C4F9B;
 }
+
+
+.hover {
+  border: 8px solid;
+  border-image: repeating-linear-gradient(135deg,#FFFFFF 0 10px,#3C4F9B 0 20px,#8690B6 0 30px) 8;
+  -webkit-mask: 
+    conic-gradient(from 180deg at top 8px right 8px, #0000 90deg,#000 0)
+     var(--_i,200%) 0  /200% var(--_i,8px) border-box no-repeat,
+    conic-gradient(at bottom 8px left  8px,  #0000 90deg,#000 0)
+     0   var(--_i,200%)/var(--_i,8px) 200% border-box no-repeat,
+    linear-gradient(#000 0 0) padding-box no-repeat;
+  transition: .3s, -webkit-mask-position .3s .3s;
+}
+.hover:hover {
+  --_i: 100%;
+  color: #3C4F9B;
+  transition: .3s, -webkit-mask-size .3s .3s;
+}
+
+h4 {
+  font-family: Verdana, sans-serif;
+  font-size: 3rem;
+  margin:0;
+  cursor: pointer;
+  padding: 0 .1em;
+  text-align: center;
+  color: #FFFFFF;
+}
