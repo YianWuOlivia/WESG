@@ -1,8 +1,10 @@
-Body {
+body {
   background-color: #668AC6;
+  max-width: 80em;
+  margin: auto;
 }
 
-Header {
+header {
   background-color: #FFFFFF;
   text-align: center;
   font-family: Verdana, sans-serif;
