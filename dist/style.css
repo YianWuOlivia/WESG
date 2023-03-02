@@ -118,6 +118,13 @@ p3 {
   color: #FFFFFF;
 }
 
+p4{
+  text-align: center;
+  font-family: Verdana, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF; 
+}
+
 ul {
   text-align: left;
   font-family: Verdana, sans-serif;
