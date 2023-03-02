@@ -8,3 +8,7 @@ Here are the development links:
 
 * [Raw Githack](https://raw.githack.com/YianWuOlivia/WESG/main/dist/index.html) is updated every few minutes.
 * [Netlify](https://deluxe-tiramisu-f2e7e2.netlify.app/) takes longer to update.
+
+Notes to developpers:
+----------------------
+When dealing with PNGs, we recommend using Lanczos3 and 25% preset for resizing, as well as OxiPNG with effort of 3 for compression. 
