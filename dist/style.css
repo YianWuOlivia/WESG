@@ -12,12 +12,12 @@ header {
   color: #3C4F9B;
 }
 
-header img1 {
+.WESG {
   max-width: 3rem;
 }
 
-header img {
-  max-width: 8rem;
+.Olympe {
+  max-width: 12rem;
 }
 
 .topnav {
