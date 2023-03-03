@@ -12,8 +12,12 @@ header {
   color: #3C4F9B;
 }
 
+header img1 {
+  max-width: 3rem;
+}
+
 header img {
-  max-width: 5rem;
+  max-width: 8rem;
 }
 
 .topnav {
